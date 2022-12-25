@@ -98,14 +98,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.214.221.119:9980/mithuntechnologies/repository/icicibank-release/</url>
+	      <name>Nexus Repository</name>
+	      <url>http://13.232.203.145:9980/repository/HDFCBANK-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.214.221.119:9980/mithuntechnologies/repository/icicibank-snapshot/</url>
+	      <name>Nexus SNAPSHOT Repository </name>
+	      <url>http://13.232.203.145:9980/repository/HDFCBANK-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
