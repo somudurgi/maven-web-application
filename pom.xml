@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.login>squ_93831253219723af65e21955e7bbf3b033607bd3</sonar.login>
-		<sonar.host.url>http://43.204.107.119:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.2.109:9000/</sonar.host.url>
 
 	
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Nexus Repository</name>
-	      <url>http://13.232.203.145:9980/repository/HDFCBANK-release/</url>
+	      <url>http://172.31.37.104:9980/repository/HDFCBANK-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Nexus SNAPSHOT Repository </name>
-	      <url>http://13.232.203.145:9980/repository/HDFCBANK-snapshot/</url>
+	      <url>http://172.31.37.104:9980/repository/HDFCBANK-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
