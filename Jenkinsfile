@@ -20,6 +20,7 @@ stage('MavenBuild'){
 sh "${mavenTool}/bin/mvn clean package"
 }
 
+/*
 //stage for gnerating SonarQube Reports
 stage('GenerateSonarQubeReports'){
 sh "${mavenTool}/bin/mvn sonar:sonar"
@@ -40,5 +41,6 @@ sh "scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/Pipeline-Scripted
 }
 
 }
-
+*/
+  
 }
