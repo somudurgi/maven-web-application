@@ -72,6 +72,7 @@ post {
 */
 }//pipeline closing
 
+/*
 //slackNotification function
 def slackNotification(String buildStatus = 'STARTED'){
   // build status of null means successful
@@ -98,4 +99,4 @@ def slackNotification(String buildStatus = 'STARTED'){
   // Send notifications
   slackSend (color: colorCode, message: summary)
 }
-}
+*/
