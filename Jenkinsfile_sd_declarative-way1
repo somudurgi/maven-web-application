@@ -59,7 +59,7 @@ sh "scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/Pipeline-Scripted
 }//stage closing for Tomcat
 
 }//stages closing
-
+*/
 post {
   success {
     slackNotification(currentBuild.result)
@@ -69,10 +69,8 @@ post {
   }
 }
 
-*/
 }//pipeline closing
 
-/*
 //slackNotification function
 def slackNotification(String buildStatus = 'STARTED'){
   // build status of null means successful
@@ -99,4 +97,3 @@ def slackNotification(String buildStatus = 'STARTED'){
   // Send notifications
   slackSend (color: colorCode, message: summary)
 }
-*/
