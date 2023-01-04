@@ -33,7 +33,6 @@ sh "mvn clean package"
 }//steps closing
 }//Build Closing
 
-/*
 stage('GenerateSonarQubeReports'){
 steps{
 sh "mvn clean sonar:sonar"
@@ -59,7 +58,7 @@ sh "scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/Pipeline-Scripted
 }//stage closing for Tomcat
 
 }//stages closing
-*/
+
 post {
   success {
     slackNotification(currentBuild.result)
