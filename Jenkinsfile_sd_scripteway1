@@ -1,5 +1,5 @@
 //Pipleline Project - Scripted Way
-node{
+node('jenkins-nodes'){
 
 /*
 //Command for job specific properties(build-periodically)
