@@ -33,6 +33,7 @@ sh "mvn clean package"
 }//steps closing
 }//Build Closing
 
+/*
 stage('GenerateSonarQubeReports'){
 steps{
 sh "mvn clean sonar:sonar"
@@ -68,7 +69,7 @@ post {
   }
 }
 
-
+*/
 }//pipeline closing
 
 //slackNotification function
