@@ -50,7 +50,7 @@ steps{
 //command for connecting jenkins to tomcat server
 sshagent(['253a3196-9f96-47eb-8e62-05898b7e2a1f']) {
 //copying war file from jenkins to tomcat server
-sh "scp -o StrictHostKeyChecking=no /var/lib/jenkins/workspace/Pipeline-Scripted_Way1/target/maven-web-application.war ec2-user@172.31.41.128:/opt/apache-tomcat-9.0.70/webapps/"
+sh "scp -o StrictHostKeyChecking=no /home/ec2-user/slavenode1/workspace/Pipeline-Declarative_Way1/target/maven-web-application.war ec2-user@172.31.41.128:/opt/apache-tomcat-9.0.70/webapps/"
 }//sshagent closing
 
 }//steps closing
