@@ -7,4 +7,4 @@ COPY . .
 RUN mvn clean package
 
 FROM tomcat:jre8-alpine
-COPY --from=build cp /mavenbuild/target/maven-web-application*.war /usr/local/tomcat/webapps/maven-web-application.war
+COPY --from=build /mavenbuild/target/maven-web-application*.war /usr/local/tomcat/webapps/maven-web-application.war
