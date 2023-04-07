@@ -1,0 +1,16 @@
+version: "3"
+services:
+ MavenWebAppContainer:
+  image: 774303460711.dkr.ecr.ap-south-1.amazonaws.com/mavenapp
+  port:
+   - 8080:8080
+  volumes:
+   - MavenWebAppVol
+  networks:
+   - MavenWebAppNetwork
+volumes:
+ MavenWebAppVol:
+  - driver: local
+networks:
+ MavenWebAppNetwork:
+  - driver: bridge
