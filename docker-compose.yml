@@ -10,7 +10,7 @@ services:
    - MavenWebAppNetwork
 volumes:
  MavenWebAppVol:
-  - driver: local
+  driver: local
 networks:
  MavenWebAppNetwork:
-  - driver: bridge
+  driver: bridge
