@@ -4,13 +4,9 @@ services:
   image: sddocker333/maven-web-application:VERSION
   ports:
    - 8080:8080
-  volumes:
-   - MavenWebAppVol
-  networks:
-   - MavenWebAppNetwork
 volumes:
  MavenWebAppVol:
-  driver: local
+  external: true
 networks:
  MavenWebAppNetwork:
-  driver: bridge
+  external: true
