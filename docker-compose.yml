@@ -10,7 +10,7 @@ services:
    - MavenWebAppNetwork
 volumes:
  MavenWebAppVol:
-  external:true
+  external: true
 networks:
  MavenWebAppNetwork:
-  external:true
+  external: true
