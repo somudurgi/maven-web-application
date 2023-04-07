@@ -1,7 +1,7 @@
 version: "3"
 services:
  MavenWebAppContainer:
-  image: 774303460711.dkr.ecr.ap-south-1.amazonaws.com/mavenapp
+  image: sddocker333/maven-web-application:VERSION
   port:
    - 8080:8080
   volumes:
