@@ -2,7 +2,7 @@ version: "3"
 services:
  MavenWebAppContainer:
   image: sddocker333/maven-web-application:VERSION
-  port:
+  ports:
    - 8080:8080
   volumes:
    - MavenWebAppVol
